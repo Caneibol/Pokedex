@@ -10,4 +10,4 @@ jobs:
         with:
           node-version: 18.x
       - run: npm install
-      - run: npm run test:cov -- --watchAll=false --no-progress
+      - run: npm run test:cov -- --watch=false --no-progress --browsers=ChromeHeadlessCI
